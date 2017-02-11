@@ -1,5 +1,9 @@
 # ovencam_mjpg_streamer
-RPi's camera module based Web application for MJPG-Streaming.
+The idea behind "ovencam" is to use the Raspberry Pi Zero (v1.3) together with a "camera module" and the "ZeroView" holder to provide a MJPG-Streaming Web applicationsolution. 
+
+![alt tag](http://url/to/img.png)
+![alt tag](http://url/to/img.png)
+![alt tag](http://url/to/img.png)
 
 ## Table of Contents
  - [Installation](#installation)
