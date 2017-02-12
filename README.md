@@ -3,7 +3,7 @@ The idea behind "ovencam" is to use the Raspberry Pi Zero (v1.3) together with a
 
 <img src="https://github.com/etxahun/ovencam_mjpg_streamer/blob/master/images/ZeroView_1.jpg" width = "30%" />
 <img src="https://github.com/etxahun/ovencam_mjpg_streamer/blob/master/images/ZeroView_2.jpg" width = "30%" />
-<img src="https://github.com/etxahun/ovencam_mjpg_streamer/blob/master/images/	ZeroView_3.jpg" width = "30%" />
+<img src="https://github.com/etxahun/ovencam_mjpg_streamer/blob/master/images/ZeroView_3.jpg" width = "30%" />
 
 ## Table of Contents
  - [Installation](#installation)
