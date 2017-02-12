@@ -9,9 +9,10 @@ fi
 
 echo
 
-# Guardar el estado:
+# Cargamos el fichero de configuración:
 . project_path.cfg
-#echo -n 1 > "/home/pi/oven_cam/public/resources/estado_mjpgstreamer.txt"
+
+# Guardar el estado:
 echo -n 1 > "$ovencampath/public/resources/estado_mjpgstreamer.txt"
 
 # Start Motion JPEG
