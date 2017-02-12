@@ -129,3 +129,9 @@ $ exec bash
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
+
+## Installation
+
+The following is a list of useful references used for the development of the application:
+*[Getting Node and Motion Jpeg onto a R-Pi](https://skippy.org.uk/getting-node-and-motion-jpeg-onto-a-r-pi/)
+
