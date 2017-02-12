@@ -69,21 +69,21 @@ If you want or have to customize the path of the project, the following files mu
 
 * **public/resources/**
  * **arranca_mjpgstreamer.php:**
-``` php
-$file = fopen("/home/pi/ovencam_mjpg_streamer/public/resources/estado_mjpgstreamer.txt", "w") or die("Unable to open file!");
-```
+ ``` php
+ $file = fopen("/home/pi/ovencam_mjpg_streamer/public/resources/estado_mjpgstreamer.txt", "w") or die("Unable to open file!");
+ ```
  * **para_mjpgstreamer.php:**
-``` php
-$file = fopen("/home/pi/ovencam_mjpg_streamer/public/resources/estado_mjpgstreamer.txt", "w") or die("Unable to open file!");
-```
+ ``` php
+ $file = fopen("/home/pi/ovencam_mjpg_streamer/public/resources/estado_mjpgstreamer.txt", "w") or die("Unable to open file!");
+ ```
  * **lee_estado_spibox.php:**
-``` php
-$file = fopen("/home/pi/ovencam_mjpg_streamer/public/resources/estado_spibox.txt", "r") or die("Unable to open estado_spibox.txt file!");
-```
+ ``` php
+ $file = fopen("/home/pi/ovencam_mjpg_streamer/public/resources/estado_spibox.txt", "r") or die("Unable to open estado_spibox.txt file!");
+ ```
  * **lee_estado_mjpgstreamer.php:**
-``` php
-$file = fopen("/home/pi/ovencam_mjpg_streamer/public/resources/estado_mjpgstreamer.txt", "r") or die("Unable to open estado_mjpgstreamer.txt file!");
-```
+ ``` php
+ $file = fopen("/home/pi/ovencam_mjpg_streamer/public/resources/estado_mjpgstreamer.txt", "r") or die("Unable to open estado_mjpgstreamer.txt file!");
+ ```
 
 Additionaly, check that the following lines of "/public/index.html" contains the proper IP address (and MJPG-Streamer PORT):
 ``` html
