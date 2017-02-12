@@ -133,5 +133,5 @@ $ exec bash
 ## Installation
 
 The following is a list of useful references used for the development of the application:
-*[Getting Node and Motion Jpeg onto a R-Pi](https://skippy.org.uk/getting-node-and-motion-jpeg-onto-a-r-pi/)
+* [Getting Node and Motion Jpeg onto a R-Pi](https://skippy.org.uk/getting-node-and-motion-jpeg-onto-a-r-pi/)
 
