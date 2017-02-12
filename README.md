@@ -46,8 +46,7 @@ My RPi has the following IP address: 192.168.20.83 so you can see the camera at 
 * **MJPG-Streamer server port:** 8081
 * The project is intended to be installed inside "/home/pi" path.
 
-The following tweaks are needed in order to make it work:
-1. If you want or have to customize the path of the project, the following files must be edited:
+If you want or have to customize the path of the project, the following files must be edited:
 
 * **server.js**
 ``` javascript
@@ -59,14 +58,14 @@ The following tweaks are needed in order to make it work:
 
 * **mjpg-streamer/**
  * **camera_stop.sh:**  
-``` sh 
-echo -n 0 > "/home/pi/ovencam_mjpg_streamer/public/resources/estado_mjpgstreamer.txt"
-```
+ ``` sh 
+ echo -n 0 > "/home/pi/ovencam_mjpg_streamer/public/resources/estado_mjpgstreamer.txt"
+ ```
  * **camera_start.sh:**
-``` sh
-echo -n 1 > "/home/pi/ovencam_mjpg_streamer/public/resources/estado_mjpgstreamer.txt"
-./mjpg_streamer -o "output_http.so -w /home/pi/ovencam_mjpg_streamer/mjpg-streamer/www -p 8081 -c <user>:<passwd>" -i "input_raspicam.so -rot 270 -fps 25 -q 50 -x 320 -y 240 ex night"
-```
+ ``` sh
+ echo -n 1 > "/home/pi/ovencam_mjpg_streamer/public/resources/estado_mjpgstreamer.txt"
+ ./mjpg_streamer -o "output_http.so -w /home/pi/ovencam_mjpg_streamer/mjpg-streamer/www -p 8081 -c <user>:<passwd>" -i "input_raspicam.so -rot 270 -fps 25 -q 50 -x 320 -y 240 ex night"
+ ```
 
 * **public/resources/**
  * **arranca_mjpgstreamer.php:**
