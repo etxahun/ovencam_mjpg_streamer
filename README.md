@@ -1,9 +1,9 @@
 # ovencam_mjpg_streamer
 The idea behind "ovencam" is to use the Raspberry Pi Zero (v1.3) together with a "camera module" and the "ZeroView" holder to provide a MJPG-Streaming Web application. 
 
-<img src="https://github.com/etxahun/ovencam_mjpg_streamer/blob/master/ZeroView_1.jpg" width = "30%" />
-<img src="https://github.com/etxahun/ovencam_mjpg_streamer/blob/master/ZeroView_2.jpg" width = "30%" />
-<img src="https://github.com/etxahun/ovencam_mjpg_streamer/blob/master/ZeroView_3.jpg" width = "30%" />
+<img src="https://github.com/etxahun/ovencam_mjpg_streamer/blob/master/images/ZeroView_1.jpg" width = "30%" />
+<img src="https://github.com/etxahun/ovencam_mjpg_streamer/blob/master/images/ZeroView_2.jpg" width = "30%" />
+<img src="https://github.com/etxahun/ovencam_mjpg_streamer/blob/master/images/	ZeroView_3.jpg" width = "30%" />
 
 ## Table of Contents
  - [Installation](#installation)
