@@ -42,8 +42,8 @@ My RPi has the following IP address: 192.168.20.83 so you can see the camera at 
 
 ## Configuration
 :warning: **Warning:** keep in mind the following points:
-* NodeJS Web server port: 8080
-* MJPG-Streamer server port: 8081
+* **NodeJS Web server port:** 8080
+* **MJPG-Streamer server port:** 8081
 * The project is intended to be installed inside "/home/pi" path.
 
 The following tweaks are needed in order to make it work:
@@ -59,11 +59,11 @@ The following tweaks are needed in order to make it work:
 
 * **mjpg-streamer/**
  * **camera_stop.sh:**  
-``` shell 
+``` sh 
 echo -n 0 > "/home/pi/ovencam_mjpg_streamer/public/resources/estado_mjpgstreamer.txt"
 ```
  * **camera_start.sh:**
-``` shell
+``` sh
 echo -n 1 > "/home/pi/ovencam_mjpg_streamer/public/resources/estado_mjpgstreamer.txt"
 ./mjpg_streamer -o "output_http.so -w /home/pi/ovencam_mjpg_streamer/mjpg-streamer/www -p 8081 -c <user>:<passwd>" -i "input_raspicam.so -rot 270 -fps 25 -q 50 -x 320 -y 240 ex night"
 ```
@@ -99,16 +99,16 @@ Additionaly, check that the following lines of "/public/index.html" contains the
 ## Usage
 
 To be sure that the application is running continously, we will use "Forever" NodeJS module:
-``` shell
+``` sh
 $ [sudo] npm install forever -g
 ```
 :warning: **Note:** If you want to use "forever" programmatically you should install forever-monitor.
-``` shell 
+``` sh 
   $ cd /path/to/your/project
   $ [sudo] npm install forever-monitor
 ```
 Once "forever" is installed we launch the application:
-``` shell
+``` sh
  $ cd <project_path>
  $ forever start nserver.js
 ```
@@ -116,7 +116,7 @@ Once "forever" is installed we launch the application:
 
 The "forever" binary file location: /opt/nodejs/bin/forever
 In order to be globally available the following "EXPORT" line has to be added in ".bashrc":
-``` shell
+``` sh
 $ nano /root/.bashrc
 	
     export PATH=$PATH:/opt/nodejs/bin
