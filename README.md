@@ -10,6 +10,7 @@ The idea behind "ovencam" is to use the Raspberry Pi Zero (v1.3) together with a
  - [Configuration](#configuration)
  - [Usage](#usage)
  - [Contributing](#contributing)
+ - [References](#references)
 
 ## Installation
 
@@ -135,5 +136,4 @@ $ exec bash
 The following is a list of useful references used for the development of the application:
 * [Getting Node and Motion Jpeg onto a R-Pi](https://skippy.org.uk/getting-node-and-motion-jpeg-onto-a-r-pi/)
 * [Node.js app with forever running as a service daemon](http://www.slidequest.com/q/70ang)
-* [SPi-Box Manual](http://sb-components.co.uk/media/1087/spiboxmanual_1.pdf)
 
