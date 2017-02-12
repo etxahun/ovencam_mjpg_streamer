@@ -51,16 +51,16 @@ If you want or have to customize the path of the project, the following files mu
 
 * **server.js**
 Line #34:
-``` javascript
+ ``` javascript
  var ovencam_path = "/home/pi/oven_cam"
  ```
 
 * **mjpg-streamer/**
 Just configure the following configuration file:
  * **project_path.cfg**
- ```sh
+   ```sh
  ovencampath="/home/pi/oven_cam"
- ```
+   ```
 
 * **public/resources/**
  Just configure the following configuration file:
