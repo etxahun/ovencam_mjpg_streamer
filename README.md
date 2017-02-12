@@ -58,9 +58,9 @@ Line #34:
 * **mjpg-streamer/**
 Just configure the following configuration file:
  * **project_path.cfg**
-   ```sh
+ ```sh
  ovencampath="/home/pi/oven_cam"
-   ```
+ ```
 
 * **public/resources/**
  Just configure the following configuration file:
