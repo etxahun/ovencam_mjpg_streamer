@@ -31,10 +31,12 @@ app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 // Variables con rutas de programas:
-var path_lee_estado_mjpgstreamer 	= "/home/pi/oven_cam/public/resources/lee_estado_mjpgstreamer.php";
-var path_camera_start 			= "/home/pi/oven_cam/mjpg-streamer/camera_start.sh";
-var path_camera_stop 			= "/home/pi/oven_cam/mjpg-streamer/camera_stop.sh";
-var path_mjpgstreamer_stop 		= "/home/pi/oven_cam/public/resources/para_mjpgstreamer.php";
+var ovencam_path			= "/home/pi/oven_cam"
+
+var path_lee_estado_mjpgstreamer 	= ovencam_path + "/public/resources/lee_estado_mjpgstreamer.php";
+var path_camera_start 			= ovencam_path + "/mjpg-streamer/camera_start.sh";
+var path_camera_stop 			= ovencam_path + "/mjpg-streamer/camera_stop.sh";
+var path_mjpgstreamer_stop 		= ovencam_path + "/public/resources/para_mjpgstreamer.php";
 
 // ===================================================================================================================================
 
